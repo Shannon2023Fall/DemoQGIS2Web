@@ -1,0 +1,1 @@
+var json_Station555_Bochum_6 = {"type":"FeatureCollection","name":"Station555_Bochum_6","crs":{"type":"name","properties":{"name":"urn:ogc:def:crs:OGC:1.3:CRS84"}},"features":[{"type":"Feature","properties":{"id":"555","Name":"Station 555 Bochum","X":7.2289,"Y":51.5026},"geometry":{"type":"Point","coordinates":[7.234002118759824,51.498337590347148]}}]}
