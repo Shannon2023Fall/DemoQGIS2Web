@@ -47,6 +47,7 @@
             if (e.target.feature.geometry.type === 'LineString' || e.target.feature.geometry.type === 'MultiLineString') {
               highlightLayer.setStyle({
                 color: '#ffff00',
+                opacity: 0.5
               });
             } else {
               highlightLayer.setStyle({
@@ -185,7 +186,7 @@
         function style_GrummerBach_Bochum_1_0() {
             return {
                 pane: 'pane_GrummerBach_Bochum_1',
-                opacity: 1,
+                opacity: 0.5,
                 color: 'rgba(35,35,35,1.0)',
                 dashArray: '',
                 lineCap: 'butt',
